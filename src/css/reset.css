@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+a{
+    color: #eeeeee;
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+ul,ol,li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-weight: normal;
+    font-size: 100%;
+}
+body,html{
+    width: 100%;
+    font: 12px "微软雅黑",Arial;
+}
+input{
+    outline: none;
+}
+.clearfix::after{
+    content: "";
+    height: 0;
+    display: block;
+    overflow: hidden;
+    clear: both;
+}

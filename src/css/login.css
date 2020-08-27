@@ -1,0 +1,127 @@
+#main{
+    width: 100%;
+    padding-bottom: 84px;
+    box-sizing: border-box;
+    background-color: #eff1f3;
+}
+#main .mainA{
+    width: 980px;
+    margin: 0 auto;
+}
+#main .mainA>h1{
+    font-size: 40px;
+    text-align: center;
+    color: #003150;
+    padding: 105px 0 72px;
+}
+#main .mA_l{
+    float: left;
+    width: 490px;
+    padding-bottom: 22px;
+    box-sizing: border-box;
+    border-right: 1px solid #bbbbbb;
+    padding-left: 100px;
+}
+#main .mA_l h2{
+    width: 300px;
+    font-size: 17px;
+    color: #003150;
+    padding-top: 8px;
+    margin-bottom: 47px;
+}
+
+#main .mA_l form{
+    width: 300px;
+}
+#main .mA_l input{
+    width: 300px;
+    height: 50px;
+    padding: 8px 20px 8px 30px;
+    /* margin-bottom: 20px; */
+}
+#main .mA_l input:nth-of-type(1){
+    margin-bottom: 40px;
+}
+#main .mA_l input:nth-of-type(2){
+    margin-bottom: 40px;
+}
+#main .mA_l input:nth-of-type(3){
+    background-color: #003150;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    border:1px solid transparent;
+    width: 150px;
+    text-align: center;
+    padding: 0;
+}
+#main .mA_l input:nth-of-type(3):hover{
+    background-color: #ffffff;
+    color: #003150;
+    border: 1px solid #003150;
+}
+#main .mA_l input:nth-of-type(4){
+    border: none;
+    background-color: #003150;
+    color: #ffffff;
+    margin: 8px 0;
+    cursor: pointer;
+    border:1px solid transparent;
+    width: 150px;
+    text-align: center;
+    padding: 0;
+}
+#main .mA_l input:nth-of-type(4):hover{
+    background-color: #ffffff;
+    color: #003150;
+    border: 1px solid #003150;
+}
+#main .mA_l p{
+    width: 150px;
+    text-align: right;
+    margin: 10px 0 20px;
+}
+
+#main .mA_r{
+    float: left;
+    width: 490px;
+}
+
+#main .mA_r h2{
+    width: 300px;
+    font-size: 17px;
+    color: #003150;
+    padding: 8px 0 0 40px;
+    margin-bottom: 47px;
+}
+#main .mA_r strong{
+    display: block;
+    font-size: 14px;
+    color: #003150;
+    padding: 10px 0 0 40px;
+    margin-bottom: 25px;
+
+}
+#main .mA_r p{
+    /* display: block; */
+    font-size: 14px;
+    color: #003150;
+    margin-bottom: 8px;
+    padding-left: 40px;
+}
+#main .mA_r input{
+    margin:55px 0 0 40px;
+    width: 150px;
+    height: 50px;
+    /* padding:5px 10px 5px 33px ; */
+    color: #ffffff;
+    background-color: #003150;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+#main .mA_r input:hover{
+    background-color: #ffffff;
+    color: #003150;
+    border: 1px solid #003150;
+}
